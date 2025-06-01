@@ -1,0 +1,146 @@
+/* losttape.css */
+
+/* Body and container */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: #000 url('images/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #f5f5f5;
+}
+
+.container {
+    max-width: 600px;
+    background-color: rgba(10, 10, 10, 0.85);
+    margin: 40px auto 60px auto;
+    padding: 30px 40px;
+    border: 2px solid #e60000;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #e60000;
+}
+
+
+
+.logo {
+    height: 60px;
+}
+
+h2 {
+    font-family: 'Creepster', cursive;
+    font-size: 2.8em;
+    color: #e60000;
+    text-align: center;
+    margin-bottom: 25px;
+    text-shadow: 1px 1px 4px #660000;
+}
+
+
+/* Form labels */
+form label {
+    display: block;
+    margin: 18px 0 6px 0;
+    font-weight: bold;
+    font-size: 1.05em;
+    color: #ff4c4c;
+    text-shadow: 1px 0 2px #330000;
+}
+
+/* Form inputs */
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form input[type="url"],
+form input[type="tel"],
+form input[type="number"],
+form input[type="date"],
+form input[type="time"],
+form input[type="datetime-local"],
+form input[list],
+form select,
+form textarea,
+form input[type="color"],
+form input[type="file"],
+form input[type="range"] {
+    width: 100%;
+    padding: 10px 12px;
+    border-radius: 6px;
+    border: 1.5px solid #e60000;
+    background-color: #111;
+    color: #f5f5f5;
+    font-size: 1em;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+    font-family: inherit;
+}
+
+/* Input focus */
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form input[type="password"]:focus,
+form input[type="url"]:focus,
+form input[type="tel"]:focus,
+form input[type="number"]:focus,
+form input[type="date"]:focus,
+form input[type="time"]:focus,
+form input[type="datetime-local"]:focus,
+form input[list]:focus,
+form select:focus,
+form textarea:focus,
+form input[type="color"]:focus,
+form input[type="file"]:focus,
+form input[type="range"]:focus {
+    outline: none;
+    border-color: #ff3333;
+    box-shadow: 0 0 8px #ff3333;
+    background-color: #222;
+}
+
+/* Textarea specifics */
+form textarea {
+    resize: vertical;
+}
+
+/* Range input styling (danger level) */
+form input[type="range"] {
+    height: 25px;
+    cursor: pointer;
+}
+
+/* Submit button */
+form button[type="submit"] {
+    margin-top: 30px;
+    width: 100%;
+    padding: 14px 0;
+    background-color: #e60000;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 0 15px #e60000;
+}
+
+form button[type="submit"]:hover {
+    background-color: #cc0000;
+    box-shadow: 0 0 25px #ff1a1a;
+}
+
+/* Responsive tweaks */
+@media (max-width: 650px) {
+    .container {
+        margin: 20px 15px 40px 15px;
+        padding: 25px 20px;
+    }
+
+    h2 {
+        font-size: 2.2em;
+    }
+}
+
+#lostTapeForm {
+    display: block;
+    flex-direction: column;
+
+}

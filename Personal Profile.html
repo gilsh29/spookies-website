@@ -1,0 +1,141 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Creator - Gil Shimoni</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #0d0d0d;
+            color: #f5f5f5;
+        }
+
+        .profile-container {
+            max-width: 700px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #1a1a1a;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(255, 0, 0, 0.4);
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            color: #ff0000;
+        }
+
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 50%;
+            margin-bottom: 15px;
+            border: 3px solid #ff0000;
+        }
+
+        .description, #moreInfo {
+            font-size: 1.1em;
+            line-height: 1.5;
+            margin-bottom: 15px;
+        }
+
+        .contact {
+            border-top: 1px solid #444;
+            margin-top: 20px;
+            padding-top: 15px;
+        }
+
+            .contact h3 {
+                color: #ff0000;
+                margin-bottom: 8px;
+            }
+
+        button {
+            background-color: #ff0000;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+            button:hover {
+                background-color: #cc0000;
+            }
+
+        .hidden {
+            display: none;
+        }
+
+        /* Responsive styles */
+        @media (max-width: 768px) {
+            .profile-container {
+                margin: 20px;
+                padding: 15px;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+
+            .profile-pic {
+                width: 120px;
+                height: 120px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 1.5em;
+            }
+
+            .description, #moreInfo {
+                font-size: 1em;
+            }
+
+            .profile-pic {
+                width: 100px;
+                height: 100px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="profile-container">
+        <h1>Gil Shimoni</h1>
+        <img src="images/profilepic.png" alt="Profile Picture" class="profile-pic">
+        <p class="description">
+            Hi, I’m a huge fan of horror and created this website to share my passion with others.
+        </p>
+
+        <button id="moreBtn">Show More</button>
+        <p id="moreInfo" class="hidden">
+            I built this website as part of a university project. I love horror aesthetics and wanted to make something that feels creepy, fun, and different from the usual. My goal was to design an experience that real horror fans could enjoy.
+        </p>
+
+        <div class="contact">
+            <h3>Contact Me</h3>
+            <p>Email: gilshimoni29@gmail.com</p>
+            <p>GitHub: <a href="https://github.com/gilshimoni" target="_blank" style="color: #ff6666;">github.com/gilsh29</a></p>
+        </div>
+    </div>
+
+    <script>
+        const btn = document.getElementById('moreBtn');
+        const info = document.getElementById('moreInfo');
+
+        btn.addEventListener('click', () => {
+            info.classList.toggle('hidden');
+            btn.textContent = info.classList.contains('hidden') ? 'Show More' : 'Show Less';
+        });
+    </script>
+
+</body>
+</html>
