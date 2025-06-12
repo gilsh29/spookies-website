@@ -18,18 +18,6 @@
 - **Backend**: PHP  
 - **Database**: MySQL
 
-## 🧪 How to Run
-
-To run this project locally:
-
-1. Use a local server environment (e.g., XAMPP or WAMP).
-2. Place the project files inside the `htdocs` folder.
-3. Make sure your database connection is correctly set in `config.php`.
-4. Import the provided SQL file into your MySQL server (if applicable).
-
-## 🔒 Privacy Notes
-
-If you're submitting this project for an academic assignment (e.g., to a professor), you may keep the GitHub repository **private**, but make sure to grant them access to view it via link or invitation.
 
 ---
 
@@ -56,14 +44,6 @@ If you're submitting this project for an academic assignment (e.g., to a profess
 - **Backend**: PHP
 - **Database**: MySQL
 
-## 🧑‍💻 למפתחים / מציגים
-
-האתר אינו דורש התקנה מיוחדת. יש להפעיל שרת מקומי (כמו XAMPP או WAMP) ולהעלות את קבצי האתר לתיקיית `htdocs`.  
-יש לוודא שחיבור למסד הנתונים מוגדר כהלכה בקובץ `config.php`.
-
-## 📬 הערות פרטיות
-
-אם ברצונך להשתמש בפרויקט זה כחלק מהצגה אקדמית (למשל מול מרצה), ניתן לשמור את הריפוזיטורי כפרטי, אך יש לוודא שלמקבל הקישור יש הרשאות צפייה.
 
 ---
 
