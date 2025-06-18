@@ -21,7 +21,7 @@
 
 ---
 
-*Created with love (and fear) as a software engineering course project.*
+*Created as a software engineering course project.*
 
 
 # 🎃 אתר "Spookies" – פלטפורמה לחובבי סרטי אימה
@@ -47,4 +47,4 @@
 
 ---
 
-*נוצר באהבה (ובפחד) כחלק מפרויקט קורס בהנדסת תוכנה.*
+*נוצר כחלק מפרויקט קורס בהנדסת תוכנה.*
